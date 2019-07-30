@@ -7,11 +7,11 @@ variable "AWS_AMI" {
 }
 
 variable "PRIVATE_KEY" {
-  default = "/home/chule/.ssh/chl-io"
+  default = "/Users/chuleh/.ssh/id_rsa"
 }
 
 variable "PUBLIC_KEY" {
-  default = "/home/chule/.ssh/chl-io.pub"
+  default = "/Users/chuleh/.ssh/id_rsa.pub"
 }
 
 variable "RDS_PASSWORD" {}
