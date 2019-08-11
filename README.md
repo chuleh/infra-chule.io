@@ -8,5 +8,7 @@ Repo for the new infra of my blog.
 
 # how to use
 `terraform init`
+
 `terraform plan -var RDS_PASSWORD=<your password> -var MY_IP=<your ip>/32`
+
 `terraform apply -var RDS_PASSWORD=<your password> -var MY_IP=<your ip>/32`
