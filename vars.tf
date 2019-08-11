@@ -15,3 +15,5 @@ variable "PUBLIC_KEY" {
 }
 
 variable "RDS_PASSWORD" {}
+
+variable "MY_IP" {}
